@@ -17,7 +17,7 @@ from plotly.subplots import make_subplots
 from datetime import datetime
 import datapane as dp
 
-dp.login(token="ffc8357d80e3e1cbf77819036ef70878818bb721")
+dp.login(token="...")
 
 pio.renderers.default = "browser"
 
