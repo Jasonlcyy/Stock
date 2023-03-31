@@ -16,7 +16,7 @@ import pandas as pd
 import smtplib, ssl
 
 def scrap_companies():
-    driver_path = "/Users/jasonlcyy/Downloads/chromedriver"
+    driver_path = "..."
 
     browser = webdriver.Chrome(executable_path = driver_path)
     
@@ -48,10 +48,10 @@ stock_list = scrap_companies()
 flag = datetime.datetime(2023, 3, 30, 20, 0)
 
 port = 465  # For SSL
-password = 'gjfasssihjqswgmn'
+password = '...'
 smtp_server = "smtp.gmail.com"
-sender_email = '643325jason@gmail.com'
-receiver_email = '643325@gmail.com'
+sender_email = '...'
+receiver_email = '...'
 
 # Create a secure SSL context
 context = ssl.create_default_context()
