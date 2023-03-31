@@ -20,7 +20,7 @@ from matplotlib import pyplot as plt
 
 
 def top_100_by_market_cap():
-    driver_path = "/Users/jasonlcyy/Downloads/chromedriver"
+    driver_path = "..."
 
     browser = webdriver.Chrome(executable_path = driver_path)
     
