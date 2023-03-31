@@ -18,12 +18,12 @@ from datetime import datetime
 import plotly.offline as py
 import datapane as dp
 
-dp.login(token="ffc8357d80e3e1cbf77819036ef70878818bb721")
+dp.login(token="...")
 
 pio.renderers.default = "browser"
 
 def top_100_by_market_cap():
-    driver_path = "/Users/jasonlcyy/Downloads/chromedriver"
+    driver_path = "..."
 
     browser = webdriver.Chrome(executable_path = driver_path)
     
